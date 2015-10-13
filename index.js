@@ -5,7 +5,6 @@ var window = require('global/window')
 module.exports = (function detectLocalStorage (localStorage, data) {
   if (!localStorage) return false
   try {
-    localStorage.setItem(data, data)
     localStorage.removeItem(data)
     return true
   } catch (_) {
