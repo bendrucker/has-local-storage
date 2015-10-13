@@ -11,4 +11,4 @@ module.exports = (function detectLocalStorage (localStorage, data) {
   } catch (_) {
     return false
   }
-})(window.localStorage, 'HAS_LOCAL_STORAGE')
+})(window.localStorage, 'HAS_LOCAL_STORAGE_' + (new Date().getTime()))
