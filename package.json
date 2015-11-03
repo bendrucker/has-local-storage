@@ -1,7 +1,7 @@
 {
   "name": "has-local-storage",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Detect localStorage support",
   "license": "MIT",
   "repository": "bendrucker/has-local-storage",
