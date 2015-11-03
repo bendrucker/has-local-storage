@@ -2,13 +2,15 @@
 
 var window = require('global/window')
 
-module.exports = (function detectLocalStorage (localStorage, data) {
-  if (!localStorage) return false
+module.exports = (function detectLocalStorage (key) {
   try {
-    localStorage.setItem(data, data)
-    localStorage.removeItem(data)
+    var localStorage = window.localStorage
+    if (!localStorage) return false
+
+    localStorage.setItem(key, key)
+    localStorage.removeItem(key)
     return true
   } catch (_) {
     return false
   }
-})(window.localStorage, 'HAS_LOCAL_STORAGE')
+})('HAS_LOCAL_STORAGE')
