@@ -1,4 +1,4 @@
-# has-local-storage [![Build Status](https://travis-ci.org/bendrucker/has-local-storage.svg?branch=master)](https://travis-ci.org/bendrucker/has-local-storage)
+# has-local-storage [![Build Status](https://travis-ci.org/bendrucker/has-local-storage.svg?branch=master)](https://travis-ci.org/bendrucker/has-local-storage) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/has-local-storage.svg)](https://greenkeeper.io/)
 
 > Detect localStorage support
 
